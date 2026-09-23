@@ -33,5 +33,23 @@ Your pasted output should clearly show:
 ## REAL TERMINAL OUTPUT TO PASTE HERE
 
 ```
-[ PASTE THE REAL OUTPUT OF "git branch -a", "git status", AND "git branch -vv" HERE ]
+$ git branch -a
+  bug-fix-typo
+* main
+  pr-demo-branch
+  remotes/origin/HEAD -> origin/main
+  remotes/origin/bug-fix-typo
+  remotes/origin/main
+  remotes/origin/pr-demo-branch
+
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+$ git branch -vv
+  bug-fix-typo   494ea63 Fix typo
+* main           a7ce729 [origin/main] Correct PR verification evidence (pr-demo-branch into main)
+  pr-demo-branch 1336a64 [origin/pr-demo-branch] Small update for PR demonstration
 ```
