@@ -28,5 +28,8 @@ terminal prints it.
 ## REAL TERMINAL OUTPUT TO PASTE HERE
 
 ```
-[ PASTE THE REAL OUTPUT OF "git checkout main" AND "git merge bug-fix-typo" HERE ]
+Updating 450feb0..494ea63
+Fast-forward
+ README.md | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
 ```
