@@ -121,7 +121,7 @@ chmod +x simple-interest.sh
 
 ## Contributing
 
-Contributions are welcome. See [CONTRIBUTING.md](./CONTRIBUTING.md) for guidelines on how to fork, branch, and submit changes.
+Contributions are welcome. See [CONTRIBUTING.md](./CONTRIBUTING.md) for guidelines on how to fork, branch, and submit changes. Feel free to open a pull request to suggest any improvements.
 
 ## Code of Conduct
 
