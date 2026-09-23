@@ -6,7 +6,7 @@
 
 ## 2. Project Description
 
-This project is a small, beginner-friendly command-line application written in Bash. It prompts a user for three values — principal amount, rate of interest, and time period — and calculates the simple interest and total amount owed or earned. It was created to practice core Git and GitHub workflows: initializing a repository, committing code, branching, merging, forking, and opening pull requests.
+This project is a small, beginner-friendly command-line application written in Bash. It prompts the user for three values — principal amount, rate of interest, and time period — and calculates the simple interest and total amount owed or earned. It was created to practice core Git and GitHub workflows: initializing a repository, committing code, branching, merging, forking, and opening pull requests.
 
 ## 3. What Is Simple Interest?
 
