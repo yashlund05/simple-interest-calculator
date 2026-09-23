@@ -1,0 +1,32 @@
+# Merge Branches Evidence
+
+This file is intended to hold the real terminal output from merging the
+`bug-fix-typo` branch into `main`. This output can only be produced by
+running the commands below in your own local clone of the repository — it
+cannot be fabricated here.
+
+## COMMANDS TO RUN
+
+```bash
+git checkout main
+git merge bug-fix-typo
+```
+
+## WHAT THE OUTPUT SHOULD SHOW
+
+After running `git merge bug-fix-typo`, your terminal should print a summary
+of the merge, which typically includes a line similar to:
+
+```
+1 file changed, N insertions(+), N deletions(-)
+```
+
+Coursera specifically wants to see confirmation that **1 file was changed**
+by the merge. Do not edit or fabricate this line — copy it exactly as your
+terminal prints it.
+
+## REAL TERMINAL OUTPUT TO PASTE HERE
+
+```
+[ PASTE THE REAL OUTPUT OF "git checkout main" AND "git merge bug-fix-typo" HERE ]
+```

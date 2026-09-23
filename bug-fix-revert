@@ -1,0 +1,48 @@
+# Bug Fix / Pull Request Evidence
+
+This file is intended to hold real evidence — via the GitHub API — of the
+pull request you opened, including the forked repository it was created
+from. This evidence can only be produced after you have actually opened a
+real pull request on GitHub; it cannot be fabricated here.
+
+## 1. Command to Run
+
+First, determine your real pull request number (see "What to Verify" below
+for how to find it). Then run:
+
+```bash
+curl -L https://api.github.com/repos/YOUR_GITHUB_USERNAME/YOUR_REPOSITORY_NAME/pulls/YOUR_PR_NUMBER
+```
+
+Replace:
+
+- `YOUR_GITHUB_USERNAME` — your actual GitHub username
+- `YOUR_REPOSITORY_NAME` — the actual name of your repository
+- `YOUR_PR_NUMBER` — the actual number of your pull request (see below)
+
+### How to Determine Your Real PR Number
+
+1. Go to your repository on GitHub.
+2. Click the **Pull requests** tab.
+3. Open the pull request you created — its number appears next to the title,
+   e.g. `#1`, `#2`, prefixed with a `#`.
+4. Use that number (without the `#`) in place of `YOUR_PR_NUMBER` above.
+
+## 2. Real Terminal Output
+
+```
+[ PASTE THE REAL curl OUTPUT FROM YOUR TERMINAL HERE ]
+```
+
+## 3. What to Verify
+
+In the JSON response, check the following field to confirm the source
+(head) repository of the pull request:
+
+- `"head"` → `"repo"` → `"full_name"` — this identifies the repository and
+  branch the pull request was created **from** (your fork/branch)
+- `"base"` → `"repo"` → `"full_name"` — this identifies the repository the
+  pull request is being merged **into**
+
+The `head.repo.full_name` field is the one that specifically demonstrates
+which forked repository the pull request originated from.

@@ -1,0 +1,40 @@
+# Forked Repository Evidence
+
+This file is intended to hold proof — via the GitHub API — that this repository
+is a fork of:
+
+    ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub
+
+This evidence can only be produced from your own, real GitHub repository after
+you have forked it. It cannot be fabricated here.
+
+## EXPECTED COMMAND TO RUN
+
+Run the following command in your terminal, replacing the placeholders with
+your real GitHub username and your real repository name:
+
+```bash
+curl -L https://api.github.com/repos/YOUR_GITHUB_USERNAME/YOUR_REPOSITORY_NAME
+```
+
+Replace:
+
+- `YOUR_GITHUB_USERNAME` — your actual GitHub username
+- `YOUR_REPOSITORY_NAME` — the actual name of your forked repository
+
+## WHAT TO VERIFY IN THE RESPONSE
+
+In the JSON response returned by the command above, check the following field:
+
+- `"fork"` — this should be `true`, confirming the repository is a fork
+- `"parent"` — this object (in particular `parent.full_name`) should read
+  `ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub`,
+  confirming the exact upstream repository this was forked from
+
+These two fields together are the proof Coursera is asking you to capture.
+
+## REAL OUTPUT TO PASTE HERE
+
+```
+[ PASTE THE REAL curl OUTPUT FROM YOUR TERMINAL HERE ]
+```

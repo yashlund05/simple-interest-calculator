@@ -1,0 +1,37 @@
+# GitHub Branches Evidence
+
+This file is intended to hold the real terminal output showing the branches
+that exist in your repository and their status. This output can only be
+produced by running the commands below in your own local clone of the
+repository — it cannot be fabricated here.
+
+## COMMANDS TO RUN
+
+```bash
+git branch -a
+git status
+git branch -vv
+```
+
+- `git branch -a` — lists all local and remote-tracking branches
+- `git status` — shows the current branch and working tree status
+- `git branch -vv` — shows each local branch along with the remote branch it
+  tracks and its ahead/behind status
+
+## WHAT THE OUTPUT SHOULD DEMONSTRATE
+
+Your pasted output should clearly show:
+
+- **Branch names** — every branch that exists in the repository (e.g. `main`,
+  `bug-fix-typo`, any feature branches you created)
+- **Current branch** — which branch is currently checked out (shown with a
+  `*` in `git branch -a` output, and explicitly named by `git status`)
+- **Tracking/status information** — whether the local branch is up to date
+  with, ahead of, or behind its remote counterpart (shown by `git status`
+  and `git branch -vv`)
+
+## REAL TERMINAL OUTPUT TO PASTE HERE
+
+```
+[ PASTE THE REAL OUTPUT OF "git branch -a", "git status", AND "git branch -vv" HERE ]
+```
